@@ -1,0 +1,9 @@
+CREATE DATABASE sistema;
+
+CREATE TABLE produtos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    estoque INTEGER NOT NULL DEFAULT 0,
+    preco NUMERIC(5,2) NOT NULL DEFAULT 0.00,
+    pData DATE NOT NULL
+);
