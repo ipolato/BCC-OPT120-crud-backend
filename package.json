@@ -9,10 +9,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "husky": "^9.1.6",
-    "nodemon": "^3.1.7"
-  },
+  "devDependencies": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
